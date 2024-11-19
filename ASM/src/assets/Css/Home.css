@@ -1,0 +1,58 @@
+/* Hero Section */
+body {
+    padding-top: 50px; /* Điều chỉnh giá trị này bằng chiều cao navbar */
+  }
+  .hero-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  .social-links a {
+    font-size: 1.5rem;
+    color: #333;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #007bff;
+    transform: scale(1.2);
+  }
+  
+  .navbar-brand img {
+    vertical-align: middle;
+  }
+  
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+  }
+  
+  .hero-section .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* Navbar */
+  .navbar {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .navbar.scrolled {
+    background-color: white !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer */
+  footer {
+    font-size: 0.9rem;
+  }
+  
